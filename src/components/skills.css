@@ -1,0 +1,24 @@
+.skills{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #501b1d;
+}
+
+.skillsImage{
+    width:40%;
+    height: 75%;
+}
+
+.skillsBar{
+    width:100%;
+
+}
+
+.dragonskills{
+    width: 100%;
+    height: 100%;
+}

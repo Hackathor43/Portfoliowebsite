@@ -1,0 +1,51 @@
+.About {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImage{
+    width:40%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.aboutText{
+    width:60%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+}
+
+
+.heading{
+    font-size: 2.5rem;
+}
+.subheading{
+    font-size: 3rem;
+    flex-wrap: nowrap;
+    display: flex;
+}
+
+.intro{
+    z-index: 2;
+    size: 1.5rem;
+    width : 100%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.dragonWarrior{
+    width: 100%;
+    height: 100%;
+}
