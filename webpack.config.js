@@ -8,5 +8,6 @@ module.exports = {
     contentBase: './',
     hot: true
  },
+ mode: production
 }
 
