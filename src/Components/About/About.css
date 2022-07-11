@@ -1,0 +1,8 @@
+.About{
+    text-align: center;
+}
+
+.About-main{
+    justify-content: center;
+    display: flex;
+}

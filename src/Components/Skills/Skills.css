@@ -1,0 +1,19 @@
+.Skills-main{
+    justify-content: center;
+}
+
+.Skills-card{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box-card{
+    padding: 10px 20px;
+}
+
+@media (max-width:750px){
+    .Skills-card{
+        flex-direction: column;
+    }
+}

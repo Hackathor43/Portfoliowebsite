@@ -1,0 +1,59 @@
+@import "./../../App.css";
+.big-heading{
+    margin: 0;
+    font-size: 2rem;
+}
+
+.eEjAsd {
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px;
+    margin-top: 12%;
+}
+
+.eEjAsd h1 {
+    color: var(--green);
+    font-family: var(--font-mono);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0px 0px 10px;
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+} 
+
+.Intro-main{
+    display: flex;
+    align-items: center;
+}
+
+.Intro-img{
+
+}
+
+.My-image{
+    width: 50%;
+    border-radius: 50%;
+}
+
+@media (max-width:992px){
+    .My-image{
+        width: 30%;
+    }
+    .Intro-main{
+        flex-direction: column;
+        margin-top: 14%;
+    }
+}
+
+@media (max-width:550px){
+    .Intro-main{
+        flex-direction: column;
+        margin-top: 30%;
+    }
+}
+

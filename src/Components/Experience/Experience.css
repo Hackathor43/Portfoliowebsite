@@ -1,0 +1,31 @@
+.Experience-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left:30px ;
+    text-align: left;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 30px;
+    text-align: right;
+}
+
+.Experience-main{
+    justify-content: center;
+}
+
+hr{
+    border: 1px solid #64ffda;
+}

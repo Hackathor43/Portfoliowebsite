@@ -1,0 +1,45 @@
+.Project{
+    width: 100%;
+}
+
+.Project-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.Project-box-card{
+    width: 300px;
+    padding: 20px;
+    height: 250px;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 5px #64ffda;
+    border-left: 1px solid #64ffda;
+    border-top: 1px solid #64ffda;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.box-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.box-left h2{
+    font-size: 1.5rem;
+    margin-top: 0px;
+}
+
+.box-right p {
+    font-size: 1.2rem;
+}
+
+.box-right{
+   text-align: left;
+}
