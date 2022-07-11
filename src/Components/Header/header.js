@@ -1,5 +1,6 @@
 import React from "react";
 import "./header.css"
+import {Link} from 'react-router-dom';
 
 const Header= () => {
     return(
@@ -9,19 +10,19 @@ const Header= () => {
                 </div>        
         <div className="navbar">
             <div className="navbar-items">
-                <a href="/" className="navbar-a hover-underline-animation">Home</a>
+                <Link to="/" className="navbar-a hover-underline-animation">Home</Link>
             </div>
             <div className="navbar-items">
-                <a href="/Experience" className="navbar-a hover-underline-animation">Experience</a>
+                <Link to="/Experience" className="navbar-a hover-underline-animation">Experience</Link>
             </div>
             <div className="navbar-items">
-                <a href="/Skills" className="navbar-a hover-underline-animation">Skills</a>
+                <Link to="/Skills" className="navbar-a hover-underline-animation">Skills</Link>
             </div>
             <div className="navbar-items">
-                <a href="/Projects" className="navbar-a hover-underline-animation">Projects</a>
+                <Link to="/Projects" className="navbar-a hover-underline-animation">Projects</Link>
             </div>
             <div className="navbar-items">
-                <a href="/About" className="navbar-a hover-underline-animation">About</a>
+                <Link to="/About" className="navbar-a hover-underline-animation">About</Link>
             </div>
         </div>
         </section>
