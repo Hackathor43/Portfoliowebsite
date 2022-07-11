@@ -6,7 +6,7 @@ const Intro= () => {
     return(
         <section className="Intro-main eEjAsd"> 
         <div className="Intro-img">
-            <img src="/img/Ganesh_Hemanth_sq.jpg" alt="Ganesh Hemanth Image" className="My-image"></img>
+            <img src="/img/Ganesh_Hemanth_sq.jpg" alt="Ganesh Hemanth" className="My-image"></img>
             </div> 
         <div>      
         <div className="Intro">
