@@ -22,7 +22,7 @@ const Footer= () => {
                 </div>
             </div>
             <div className="Footer-resume">
-            <a href="/Ganesh_Hemanth_resume.pdf" rel="noopener noreferrer" target="_blank" title="Ganesh Resume"><button class="resume-button">Resume</button></a>
+            <a href="/Ganesh_Hemanth_2yrexp_full_stack.pdf" rel="noopener noreferrer" target="_blank" title="Ganesh Resume"><button class="resume-button">Resume</button></a>
             </div>
         </section>
 

@@ -12,7 +12,7 @@ const Experience= () => {
             <div className="left">
                 <h1>Humantic AI</h1>
                 <h2>Full Stack Developer</h2>
-                <p>Worked on Full website revamp.Working on backend revamp to scale up the website for millions of users</p>
+                <p>Worked on backend monitoring system,company website, chrome extension and sales dashboard.Working on backend revamp to scale up the website for millions of users</p>
             </div>
             
            </div>
